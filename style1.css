@@ -67,29 +67,30 @@ a {
     gap: 40px;
 }
 .hero-left {
-    flex: 1 1 auto;
-    width: 600px;
+    flex: 1 1 0;
     font-size: 18px;
     color: #E5E7EB;
 }
 .hero-image {
-    flex: 1 1 auto;
-    width: 600px;
+    flex: 1 1 0;
 }   
-
+.container-image {
+    max-width:100%;
+    max-height:100%;
+}
 .hero-header {
     font-size: 48px;
     font-weight: 900; 
     color: #F9FAF8;
 }
 .information-section {
-    flex: 3 1 auto;
+    flex: 3 1 0;
 }
 .quote-section {
-    flex: 2 1 auto;
+    flex: 2 1 0;
 }
 .call-to-action {
-    flex: 1.5 1 auto;
+    flex: 1.5 1 0;
 }
 .footer-centerer {
     display: flex;

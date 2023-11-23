@@ -26,7 +26,6 @@ body {
     display: flex;
 }    
 .header-text {
-    color:white;
     align-self: center;
     margin-left: 8px;
     font-size: 24px;
@@ -57,8 +56,8 @@ a {
 .hero-centerer {
     display: flex;
     justify-content: center;
-    flex: 3 1 auto;
     background-color: #1F2937;
+    padding-bottom: 8px;
 }
 .hero {
     display: flex;
@@ -73,7 +72,7 @@ a {
 }
 .hero-image {
     flex: 1 1 0;
-}   
+}
 .container-image {
     max-width:100%;
     max-height:100%;
@@ -83,14 +82,88 @@ a {
     font-weight: 900; 
     color: #F9FAF8;
 }
+.information-section-centerer {
+    display: flex;
+    justify-content: center;
+}
 .information-section {
-    flex: 3 1 0;
+    width: 1200px;
+}
+.card-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 250px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card .text {
+    margin-top: 5px;
+    text-align: center;
+}
+.information-section h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.card img {
+    width: 200px;
+    border: solid #3882F6;
+    border-radius: 14px;
+}
+.quote-section-centerer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
 }
 .quote-section {
-    flex: 2 1 0;
+    width: 800px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 30px;
+    color: #1F2937;
+    margin: 30px 0;
+}
+.quote-author {
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+    text-align: end;
+}
+.call-to-action-centerer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 .call-to-action {
-    flex: 1.5 1 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 14px;
+    padding: 30px 80px;
+}
+.call-to-action h2,
+.call-to-action p {
+    margin: 0;
+    color: #F9FAF8;
+}
+.call-to-action h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.call-to-action button {
+    border: solid 2px white;
 }
 .footer-centerer {
     display: flex;
@@ -111,6 +184,6 @@ button {
     font-weight: 600;
     font-size: 18px;
     color: #E5E7EB;
-    border-radius: 14px;
+    border-radius: 10px;
     border: none;
 }
